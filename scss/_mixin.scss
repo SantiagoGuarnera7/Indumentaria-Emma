@@ -1,0 +1,35 @@
+$bgcaja1:#4e4e4e4f;
+$bordo:#642060;
+
+
+@mixin cajas ($bg,$color){
+    background-color: $bg;
+    border-radius: 5px;
+    padding:10px;
+    margin: 10px;
+    h2{
+        color:$color
+    }
+    p{
+        color:$color;
+    }
+}
+
+.cajita1{
+    @include cajas($bgcaja1,$bordo)
+}
+.cajita2{
+    @include cajas($bgcaja1,$bordo)
+}
+.cajita3{
+    @include cajas($bgcaja1,$bordo)
+}
+.cajita4{
+    @include cajas($bgcaja1,$bordo)
+}
+.cajita5{
+    @include cajas($bgcaja1,$bordo)
+}
+.cajita6{
+    @include cajas($bgcaja1,$bordo)
+}

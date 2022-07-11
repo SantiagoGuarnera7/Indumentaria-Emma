@@ -1,0 +1,35 @@
+.footer-contenedor {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas:
+        "pie";
+    margin-top: 100px;
+    background-color: $texto1;
+    border-radius: 5px;
+    
+    .pie {
+        grid-area: pie;
+        font-size: 25px;
+        height: 80px;
+    }
+    .pie ul {
+        display: flex;
+        justify-content: center;
+    }
+    .pie ul li {
+        padding: 10px;
+    }
+    .redes {
+        list-style-type: none;
+    }
+
+    .img-footer{
+        display:inline-block;
+        border-radius: 15px;
+    }
+
+    p{
+        font-family: 'Righteous', cursive;
+    }
+}

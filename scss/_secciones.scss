@@ -1,0 +1,63 @@
+.container-cate {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "ofer liqui acce"
+        "hombre1 mujer1 chicos1";
+    margin-top: 50px;
+   
+    
+    img {
+        display: flex;
+        align-items: center;
+        border-style:outset;
+        border-color:rgb(153, 153, 153);
+        border-radius: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+
+    }
+
+    h2{
+        display: flex;
+        justify-content: center;
+        font-family: 'Righteous', cursive;
+        font-size: 25px;
+        background-color: rgba(58, 57, 56, 0.192);
+        border-radius: 5px;
+    
+    }
+    
+    .img-cate{
+        width: 200px;
+        height: 200px;
+        transition: ease-in .4s;
+        
+    }
+
+    .img-cate:hover{
+        transform: scale(1.5);
+        
+    }
+    .ofer {
+        grid-area: ofer;
+    }
+    .liqui {
+        grid-area: liqui;
+    }
+    .acce {
+        grid-area: acce;
+    }
+    .hombre1 {
+        grid-area: hombre1;
+    }
+    .mujer1 {
+        grid-area: mujer1;
+    }
+    .chicos1 {
+        grid-area: chicos1;
+    }
+    
+
+}

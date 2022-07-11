@@ -1,0 +1,50 @@
+header{
+    .contenedor_header{
+        margin-top: 50px;
+        
+        
+          
+    }
+
+    .logo{
+        border-style:outset;
+        border-color:rgb(153, 153, 153);
+        border-radius: 40px;
+        margin-top: 2px;
+    }
+    .titulo{
+       text-align: center;
+    }
+
+    h1{
+        font-family: 'Righteous', cursive;
+        color:#42224efd;
+    }
+
+    .contenedor_menu{
+        grid-area: navBar;
+        
+        a{
+            font-family: 'Righteous', cursive;
+            font-size: 20px;
+            
+
+           
+        }
+        .menu a:hover {
+            font-weight: bold;
+            text-decoration: underline;
+            color: rgb(205, 88, 235);
+            
+        }
+    
+    }
+
+    .contenedor-boton{
+        font-family: 'Righteous', cursive;
+    }
+    
+    .nav{
+        border-radius: 5px;
+    }
+}
